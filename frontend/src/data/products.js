@@ -17,6 +17,7 @@ import orthoSil from '../assets/products/orthosil.jpeg'
 import celCalix from '../assets/products/cel-calix.jpeg'
 import calmatrix from '../assets/products/calmatrix.jpeg'
 import zincUp from '../assets/products/zinc-up.jpeg'
+import turboCal40Bucket from '../assets/products/turbo-cal-40-2kg-bucket.jpeg'
 
 export const products = [
   {
@@ -291,6 +292,21 @@ export const products = [
       "Provides advanced zinc nutrition.",
       "Designed for better absorption.",
       "Supports higher crop performance.",
+    ],
+  },
+  {
+    slug: "glyone-ultra-turbo-cal-40-2kg-bucket",
+    name: "Glyone Ultra Turbo Cal-40 (2 kg)",
+    category: "Calcium Formulation",
+    family: "Calcium Formulations",
+    image: turboCal40Bucket,
+    note: "Premium calcium oxide formulation with 40.5% calcium oxide in a 2 kg bucket.",
+    description:
+      "Glyone Ultra Turbo Cal-40 is a calcium formulation containing 40.5% calcium oxide, shown in a 2 kg bucket package.",
+    benefits: [
+      "Contains 40.5% calcium oxide.",
+      "Supports calcium nutrition in crops.",
+      "Available in a 2 kg bucket package.",
     ],
   },
 ];
