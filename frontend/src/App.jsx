@@ -127,9 +127,9 @@ function Home() {
       <section className="relative grid min-h-[92svh] items-end px-5 pb-10 pt-28 text-white md:px-[clamp(20px,5vw,80px)] md:pb-14 md:pt-36">
         <img className="absolute inset-0 h-full w-full object-cover" src={greenhouseHero} alt="Sunlit modern greenhouse with healthy crops" />
         <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(9,30,20,0.78),rgba(9,30,20,0.34)_52%,rgba(9,30,20,0.08)),linear-gradient(0deg,rgba(9,30,20,0.5),transparent_50%)]" />
-        <div className="relative z-[1] max-w-[850px]">
+        <div className="relative z-[1] w-full max-w-[1250px]">
           <p className="mb-3 text-xs font-extrabold uppercase tracking-[0.13em] text-[#d9f4e4]">Netherlands-inspired crop nutrition</p>
-          <h1 className="mb-6 max-w-[820px] text-[clamp(2.8rem,14vw,7rem)] font-bold leading-[0.94] tracking-normal">
+          <h1 className="mb-6 max-w-[1180px] text-balance text-[clamp(3rem,8vw,7rem)] font-bold leading-[0.94] tracking-tight">
             Advanced fertilizer systems for cleaner, stronger harvests.
           </h1>
           <p className="max-w-[620px] text-base leading-8 text-white/85 md:text-xl">
