@@ -9,13 +9,14 @@ import product8 from '../assets/products/8.jpeg'
 import product9 from '../assets/products/9.jpeg'
 import product10 from '../assets/products/10.jpeg'
 import product11 from '../assets/products/11.jpeg'
-import product12 from '../assets/products/12.jpeg'
 import ferro17 from '../assets/products/ferro-17.jpeg'
 import budPrimePlus from '../assets/products/bud-prime-plus.jpg'
 import brixX3053 from '../assets/products/brix-x-3053.jpg'
-import glyone004040 from '../assets/products/glyone-ultra-004040.jpg'
-import glyone003565 from '../assets/products/glyone-ultra-003565.jpg'
-import turboCalBucket from '../assets/products/turbo-cal-40-bucket.jpg'
+import amiK from '../assets/products/ami-k.jpeg'
+import orthoSil from '../assets/products/orthosil.jpeg'
+import celCalix from '../assets/products/cel-calix.jpeg'
+import calmatrix from '../assets/products/calmatrix.jpeg'
+import zincUp from '../assets/products/zinc-up.jpeg'
 
 export const products = [
   {
@@ -173,20 +174,6 @@ export const products = [
     ],
   },
   {
-    slug: "turbo-cal-40",
-    name: "Turbo Cal-40",
-    category: "Calcium Formulation",
-    image: product12,
-    note: "Premium calcium oxide formulation for stronger plants and superior crop quality.",
-    description:
-      "Turbo Cal-40 contains 40.5% calcium oxide to strengthen plant structure, improve fruit quality, and reduce calcium-related deficiencies across a wide range of crops.",
-    benefits: [
-      "Provides readily available calcium.",
-      "Strengthens cell walls and plant structure.",
-      "Improves fruit firmness and shelf life.",
-    ],
-  },
-  {
     slug: "ferro-17",
     name: "Ferro-17",
     category: "Chelated Micronutrients",
@@ -232,48 +219,78 @@ export const products = [
     ],
   },
   {
-    slug: "glyone-ultra-00-40-40",
-    name: "Glyone Ultra 00-40-40",
-    category: "Water Soluble Fertilizer",
-    family: "Water Soluble Fertilizers",
-    image: glyone004040,
-    note: "Water-soluble NPK 00-40-40 fertilizer with iron.",
+    slug: "glyone-ultra-ami-k",
+    name: "Glyone Ultra Ami+K",
+    category: "Plant Nutrition",
+    family: "Plant Nutrition",
+    image: amiK,
+    note: "Amino acid and potassium nutrition to boost colour, build quality, and improve sweetness.",
     description:
-      "Glyone Ultra 00-40-40 is a water-soluble NPK fertilizer with iron for foliar and drip application.",
+      "Glyone Ultra Ami+K is a 1000 ml plant nutrition product. Its label highlights amino acid and potassium nutrition for colour, quality, and sweetness.",
     benefits: [
-      "Provides an NPK 00-40-40 formulation with iron.",
-      "Water-soluble for foliar and drip application.",
-      "Promotes healthy growth and supports crop yield and quality.",
+      "Supports fruit colour development.",
+      "Helps build crop quality.",
+      "Supports sweetness improvement.",
     ],
   },
   {
-    slug: "glyone-ultra-00-35-65",
-    name: "Glyone Ultra 00-35-65",
-    category: "Water Soluble Fertilizer",
-    family: "Water Soluble Fertilizers",
-    image: glyone003565,
-    note: "Water-soluble NPK 00-35-65 fertilizer with iron.",
+    slug: "glyone-ultra-orthosil",
+    name: "Glyone Ultra OrthoSil",
+    category: "Plant Nutrition",
+    family: "Plant Nutrition",
+    image: orthoSil,
+    note: "Orthosilicic Acid (OSA) 2.0% WSL for stronger crops.",
     description:
-      "Glyone Ultra 00-35-65 is a water-soluble NPK fertilizer with iron for foliar and drip application.",
+      "Glyone Ultra OrthoSil is a 1000 ml water-soluble plant nutrition product containing Orthosilicic Acid (OSA) 2.0% WSL.",
     benefits: [
-      "Provides an NPK 00-35-65 formulation with iron.",
-      "Water-soluble for foliar and drip application.",
-      "Promotes healthy growth and supports crop yield and quality.",
+      "Provides Orthosilicic Acid (OSA) 2.0% WSL.",
+      "Designed to support stronger crops.",
+      "Water-soluble formulation.",
     ],
   },
   {
-    slug: "turbo-cal-40-bucket",
-    name: "Turbo Cal-40 (2 kg)",
+    slug: "cel-calix",
+    name: "Cel-Calix",
     category: "Calcium Formulation",
     family: "Calcium Formulations",
-    image: turboCalBucket,
-    note: "Calcium oxide 40.5% formulation in a 2 kg bucket.",
+    image: celCalix,
+    note: "3X calcium support for fast calcium, stronger growth, and better crops.",
     description:
-      "Turbo Cal-40 contains 40.5% calcium oxide and is shown here in a 2 kg bucket package.",
+      "Cel-Calix is a 1000 ml calcium support product. Its label highlights fast calcium, stronger growth, and better crops.",
     benefits: [
-      "Contains 40.5% calcium oxide.",
-      "Supports calcium nutrition in crops.",
-      "2 kg bucket package.",
+      "Provides calcium support.",
+      "Supports stronger crop growth.",
+      "Designed to support crop performance.",
+    ],
+  },
+  {
+    slug: "calmatrix",
+    name: "Calmatrix",
+    category: "Calcium Formulation",
+    family: "Calcium Formulations",
+    image: calmatrix,
+    note: "Calcium Di-Hydrogen Phosphate for growth and strength.",
+    description:
+      "Calmatrix is a 1000 ml plant nutrition product containing Calcium Di-Hydrogen Phosphate, labeled for growth and strength.",
+    benefits: [
+      "Provides Calcium Di-Hydrogen Phosphate.",
+      "Supports crop growth.",
+      "Designed to support plant strength.",
+    ],
+  },
+  {
+    slug: "glyone-ultra-zinc-up",
+    name: "Glyone Ultra Zinc-up",
+    category: "Plant Nutrition",
+    family: "Plant Nutrition",
+    image: zincUp,
+    note: "Advanced zinc nutrition for better absorption and higher performance.",
+    description:
+      "Glyone Ultra Zinc-up is a 1000 ml plant nutrition product labeled for advanced zinc, better absorption, and higher performance.",
+    benefits: [
+      "Provides advanced zinc nutrition.",
+      "Designed for better absorption.",
+      "Supports higher crop performance.",
     ],
   },
 ];

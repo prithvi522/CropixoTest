@@ -5,6 +5,7 @@ import {
   BadgeCheck,
   FlaskConical,
   Globe2,
+  Images,
   Leaf,
   Mail,
   MapPin,
@@ -21,6 +22,7 @@ import logo from './assets/CropixoInnovation.png'
 import { products } from './data/products.js'
 import ProductsPage from './pages/productsPage.jsx'
 import ProductDetailPage from './pages/productDetailPage.jsx'
+import ResultsPage, { ResultsPreview } from './pages/resultsPage.jsx'
 import ScrollToTop from './components/ScrollToTop.jsx'
 
 const sectionClass = 'mx-auto w-[min(1180px,calc(100%-40px))] py-20'
@@ -48,6 +50,10 @@ function Navigation({ isVisible }) {
         <Link className="flex items-center gap-1.5 rounded-full px-3.5 py-2 transition hover:bg-[#1f6f4315] hover:text-[#123f2a]" to="/products">
           <Package size={15} />
           <span>Products</span>
+        </Link>
+        <Link className="flex items-center gap-1.5 rounded-full px-3.5 py-2 transition hover:bg-[#1f6f4315] hover:text-[#123f2a]" to="/results">
+          <Images size={15} />
+          <span>Field results</span>
         </Link>
         <Link className="flex items-center gap-1.5 rounded-full px-3.5 py-2 transition hover:bg-[#1f6f4315] hover:text-[#123f2a]" to="/about">
           <Sparkles size={15} />
@@ -87,6 +93,7 @@ function SiteFooter() {
         <div>
           <div className="grid gap-2 text-white/75">
             <NavLink to="/products">Products</NavLink>
+            <NavLink to="/results">Field results</NavLink>
             <NavLink to="/about">About</NavLink>
             <NavLink to="/contact">Contact</NavLink>
           </div>
@@ -318,7 +325,8 @@ function App() {
       <ScrollToTop />
       <Navigation isVisible={isVisible} />
       <Routes>
-        <Route path="/" element={<><Home /><ResearchStrip /><SiteFooter /></>} />
+        <Route path="/" element={<><Home /><ResultsPreview /><ResearchStrip /><SiteFooter /></>} />
+        <Route path="/results" element={<><ResultsPage /><SiteFooter /></>} />
         <Route path="/products" element={<><ProductsPage /><SiteFooter /></>} />
         <Route path="/products/:slug" element={<><ProductDetailPage /><SiteFooter /></>} />
         <Route path="/about" element={<><AboutPage /><SiteFooter /></>} />
